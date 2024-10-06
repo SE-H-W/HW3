@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Step 1: Find files containing "sample" and at least 3 occurrences of "CSC510"
 echo "a: Files containing 'sample' and at least 3 occurrences of 'CSC510':"
 grep -rl "sample" dataset1/ | while read file; do
     count=$(grep -o "CSC510" "$file" | wc -l)
@@ -9,7 +8,6 @@ grep -rl "sample" dataset1/ | while read file; do
     fi
 done | sort -k2,2nr -k1 | tee temp_files.txt
 
-# Step b: Sorting files by occurrence of 'CSC510' and breaking ties by file size
 echo
 echo "b: Sorting files by occurrence of 'CSC510' and breaking ties by file size:"
 gawk '{
