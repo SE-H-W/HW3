@@ -1,0 +1,12 @@
+dataset1//file_20        6 298
+dataset1//file_10        6 196
+dataset1//file_4        5 269
+dataset1//file_14        5 167
+dataset1//file_24        5 167
+dataset1//file_2        4 138
+dataset1//file_22        4 138
+dataset1//file_30        3 1079
+dataset1//file_3        3 925
+dataset1//file_23        3 619
+dataset1//file_12        3 109
+dataset1//file_13        3 109
